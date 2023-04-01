@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>GENERAR CODIGO QR</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button class="boton seis" (click)="onButton2Click()">Generar QR</ion-button>
+  </div>
+  <div>
+    <canvas class="boton seis"  id="qr-code"></canvas>
+  </div>
+
+
+</ion-content>

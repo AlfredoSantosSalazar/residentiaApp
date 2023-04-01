@@ -1,0 +1,65 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+}
+
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#container strong {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#container p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+}
+
+.boton.seis {
+	background: none;
+	color: #000;
+}
+
+.boton.seis svg {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	fill: none;
+}
+
+.boton.seis rect {
+	width: 100%;
+	height: 100%;
+	stroke: #000;
+	stroke-width: 10px;
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	transition: .6s ease all;
+}
+
+.boton.seis:hover rect {
+	stroke-dashoffset: 0;
+}

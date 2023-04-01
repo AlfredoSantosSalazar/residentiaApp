@@ -1,0 +1,7 @@
+{
+  "name": "residentiaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
